@@ -1,0 +1,13 @@
+/*
+ *
+ * Amaro
+ *
+ */
+
+@import 'shared';
+
+%amaro,
+.amaro {
+  @extend %filter-base;
+  filter: hue-rotate(-10deg) contrast(0.9) brightness(1.1) saturate(1.5);
+}
